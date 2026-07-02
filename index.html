@@ -3,65 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Yves Nkwane - Resume</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>Yves Nkwane</h1>
-    <img src="https://casoar.org/wp-content/uploads/2020/10/Bob-leponge.png" height="150" alt="Spongebob" />
-    <h2>Introduction</h2>
-    <p>I am a hardworking student studying business informatic in germany (Bachelor Degree).</p>
-    <hr />
-    <h2>Education</h2>
-    <ul>
-        <li><p>Bachelor of Sciences, Business Informatic - Brandenburg University of Applied Sciences (2021-2025)</p></li>
-        <li><p>Expected graduation, June 2025</p></li>
-        <li><p>Focal points: Design and optimisation of operational information and communication systems</p></li>
-        <li>
-            <p>Related courses:
-            <ul>
-                <li>Operational personnel management</li>
-                <li>Management and organisation</li>
-                <li>Scientific work with AI tools</li>
-                <li>IT service management</li>
-            </ul>
-            </p>
-        </li>
-    </ul>
-    <hr />
-    <h2>Work Experience</h2>
-    <ul>
-        <li>
-            <h3>Student Assistant in the Administration - Embassy of the Republic of Cameroon, Berlin</h3>
-            <p>June 2023 - May 2024</p>
-            <ul>
-               <li>Support the administrative tasks</li>
-               <li>Support in the transcription, processing, registration and dispatch of birth certificates</li>
-               <li>File management and filing</li>
-            </ul>
-        </li>
-        <li>
-            <h3>Working student customer advisor - ERGO Beratung und Vertrieb AG, Berlin</h3>
-            <p>Feb. 2023 - May 2023</p>
-            <ul>
-               <li>Customer counselling</li>
-               <li>Presenting new services to customers</li>
-               <li>Personnel recruitment, management and training</li>
-            </ul>
-        </li>
-    </ul>
-    <hr />
-    <h2>Skills</h2>
-    <ul>
-        <li><p>Programmierung: Java, Python, JavaScript, HTML/CSS, SQL</p></li>
-        <li><p>Tools: LaTeX, JIRA, Microsoft Office, Excel</p></li>
-        <li><p>Sprachen: Deutsch(Verhandlungssicher), Englisch(Fließend), Französisch (Muttersprache)</p></li>
-    </ul>
-    <hr />
-    <h2>Other</h2>
-    <ul>
-        <li><a href="./My Hobbies.html">My Hobbies</a></li>
-        <li><a href="./Contact Me.html">Contact Me</a></li>
-    </ul>
-    <p>© Yves Nkwane. All rights reserved.</p>
+
+    <nav>
+        <a href="index.html" class="active">Resume</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <header>
+            <img src="https://casoar.org/wp-content/uploads/2020/10/Bob-leponge.png" height="150" alt="Yves Nkwane (Avatar)" />
+            <h1>Yves Nkwane</h1>
+            <p class="intro-text">I am a hardworking student studying Business Informatics in Germany (Bachelor Degree), with a strong focus on the design and optimization of operational information and communication systems.</p>
+        </header>
+
+        <main>
+            <section>
+                <h2>Education</h2>
+                <div class="education-item">
+                    <h3>Bachelor of Sciences, Business Informatics</h3>
+                    <p class="date-range">Brandenburg University of Applied Sciences | 2021 - Present (Expected June 2025)</p>
+                    <p><strong>Focal points:</strong> Design and optimization of operational information and communication systems.</p>
+                    <p><strong>Related courses:</strong></p>
+                    <ul>
+                        <li>Operational personnel management</li>
+                        <li>Management and organization</li>
+                        <li>Scientific work with AI tools</li>
+                        <li>IT service management</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>Work Experience</h2>
+                <div class="experience-item">
+                    <h3>Student Assistant in Administration</h3>
+                    <p class="date-range">Embassy of the Republic of Cameroon, Berlin | June 2023 - May 2024</p>
+                    <ul>
+                       <li>Supported administrative tasks and daily operations.</li>
+                       <li>Assisted in the transcription, processing, registration, and dispatch of birth certificates.</li>
+                       <li>Managed sensitive files and document filing systems.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <h3>Working Student Customer Advisor</h3>
+                    <p class="date-range">ERGO Beratung und Vertrieb AG, Berlin | Feb 2023 - May 2023</p>
+                    <ul>
+                       <li>Provided comprehensive customer counseling and support.</li>
+                       <li>Presented and explained new services and insurance products to customers.</li>
+                       <li>Assisted in personnel recruitment, management, and training.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>Skills & Languages</h2>
+                <ul>
+                    <li><strong>Programming:</strong> Java, Python, JavaScript, HTML/CSS, SQL</li>
+                    <li><strong>Tools:</strong> LaTeX, JIRA, Microsoft Office suite (Excel)</li>
+                    <li><strong>Languages:</strong> French (Native), German (Business Fluent), English (Fluent)</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2026 Yves Nkwane. All rights reserved.</p>
+        </footer>
+    </div>
+
 </body>
 </html>
